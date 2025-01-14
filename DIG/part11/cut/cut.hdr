@@ -1,0 +1,39 @@
+ENVI
+samples = 433
+lines   = 433
+bands   = 7
+data type = 12
+interleave = bsq
+file type = ENVI Standard
+header offset = 0
+byte order = 0
+map info = {Arbitrary, 1.0000, 1.0000, 224655.0000, 2524245.0000, 3.000000e+01, 3.000000e+01, 1, units=Meters}
+x start = 1730
+y start = 5020
+default bands = {4,3,2}
+band names = {
+ Coastal Aerosol, Blue, Green, Red, Near Infrared (NIR), SWIR 1, SWIR 2}
+wavelength = {
+ 0.443000, 0.482600, 0.561300, 0.654600, 0.864600, 1.609000, 2.201000}
+fwhm = {
+ 0.016000, 0.060100, 0.057400, 0.037500, 0.028200, 0.084700, 0.186700}
+wavelength units = Micrometers
+data ignore value = 0.000000e+00
+data gain values = {
+ 1.25670000e-02, 1.28690000e-02, 1.18590000e-02, 1.00000000e-02,
+ 6.11960000e-03, 1.52190000e-03, 5.12950000e-04}
+data offset values = {
+ -6.28373800e+01, -6.43462500e+01, -5.92945200e+01, -5.00004800e+01,
+ -3.05978000e+01, -7.60939000e+00, -2.56477000e+00}
+data reflectance gain values = {
+ 2.43677023e-05, 2.43677023e-05, 2.43677023e-05, 2.43677023e-05,
+ 2.43677023e-05, 2.43677023e-05, 2.43677023e-05}
+data reflectance offset values = {
+ -1.21838517e-01, -1.21838517e-01, -1.21838517e-01, -1.21838517e-01,
+ -1.21838517e-01, -1.21838517e-01, -1.21838517e-01}
+sun azimuth = 142.874862
+sun elevation = 55.160801
+earth sun distance = 0.999534
+sensor type = Landsat OLI
+acquisition time = 2021-10-07T03:11:03.0780979Z
+image quality = 9
